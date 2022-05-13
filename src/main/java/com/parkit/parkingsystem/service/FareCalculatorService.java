@@ -4,7 +4,8 @@ import com.parkit.parkingsystem.constants.Fare;
 import com.parkit.parkingsystem.model.Ticket;
 
 public class FareCalculatorService {
-	private double FREETIMEHOUR = 0.5;
+	private double FREE_TIME_HOUR = 0.5;
+	private double DISCOUNT_FOR_RECURRING = 0.05;
 
     public void calculateFare(Ticket ticket){
         if( (ticket.getOutTime() == null) || (ticket.getOutTime().before(ticket.getInTime())) ){
@@ -16,7 +17,7 @@ public class FareCalculatorService {
 
         //TODO: Some tests are failing here. Need to check if this logic is correct
         double durationHour = convertMillisToHour(outHour - inHour);
-        durationHour = freeTime(durationHour, FREETIMEHOUR);
+        durationHour = freeTime(durationHour, FREE_TIME_HOUR);
 
         double ratePerHour;
         switch (ticket.getParkingSpot().getParkingType()){
@@ -31,8 +32,9 @@ public class FareCalculatorService {
             default: throw new IllegalArgumentException("Unkown Parking Type");
         }
         
-        double price = Math.floor(durationHour*ratePerHour * 1000)/1000;
-        ticket.setPrice(price);
+        double price = durationHour*ratePerHour;
+        if(ticket.isRecurringUser()) price -= DISCOUNT_FOR_RECURRING*price;
+        ticket.setPrice( roundCent(price) );
     }
     
     private double convertMillisToHour(long timeMillis) {
@@ -45,10 +47,14 @@ public class FareCalculatorService {
     }
     
     public double getFreeTimeHour() {
-    	return this.FREETIMEHOUR;
+    	return this.FREE_TIME_HOUR;
     }
     
     public void setFreeTimeHour(double time) {
-    	this.FREETIMEHOUR = time;
+    	this.FREE_TIME_HOUR = time;
+    }
+    
+    static public double roundCent(double x) {
+    	return Math.floor(Math.round(x*10000)/100)/100;
     }
 }
