@@ -1,0 +1,400 @@
+2022-05-13 09:50:28 [main] INFO  App:10 - Initializing Parking System
+2022-05-13 09:50:28 [main] INFO  InteractiveShell:14 - App initialized!!!
+2022-05-13 09:50:35 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 09:50:35 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.sql.SQLException: The server time zone value 'Paris, Madrid (heure d��t�)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at java.sql.DriverManager.getConnection(DriverManager.java:681) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:229) ~[java.sql:?]
+	at com.parkit.parkingsystem.config.DataBaseConfig.getConnection(DataBaseConfig.java:15) ~[classes/:?]
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:23) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:76) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'Paris, Madrid (heure d��t�)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2139) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2163) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1301) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:958) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	... 11 more
+2022-05-13 09:50:35 [main] ERROR ParkingService:85 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:80) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-05-13 09:50:57 [main] INFO  App:10 - Initializing Parking System
+2022-05-13 09:50:57 [main] INFO  InteractiveShell:14 - App initialized!!!
+2022-05-13 09:51:48 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 09:51:56 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.sql.SQLException: The server time zone value 'Paris, Madrid (heure d��t�)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at java.sql.DriverManager.getConnection(DriverManager.java:681) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:229) ~[java.sql:?]
+	at com.parkit.parkingsystem.config.DataBaseConfig.getConnection(DataBaseConfig.java:15) ~[classes/:?]
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:23) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:76) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'Paris, Madrid (heure d��t�)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2139) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2163) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1301) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:958) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	... 11 more
+2022-05-13 09:52:04 [main] ERROR ParkingService:85 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:80) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-05-13 09:52:32 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 09:52:45 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.sql.SQLException: The server time zone value 'Paris, Madrid (heure d��t�)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at java.sql.DriverManager.getConnection(DriverManager.java:681) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:229) ~[java.sql:?]
+	at com.parkit.parkingsystem.config.DataBaseConfig.getConnection(DataBaseConfig.java:15) ~[classes/:?]
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:23) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:76) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'Paris, Madrid (heure d��t�)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2139) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2163) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1301) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:958) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	... 11 more
+2022-05-13 09:52:45 [main] ERROR ParkingService:85 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:80) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-05-13 09:53:11 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 09:57:19 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.sql.SQLException: The server time zone value 'Paris, Madrid (heure d��t�)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at java.sql.DriverManager.getConnection(DriverManager.java:681) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:229) ~[java.sql:?]
+	at com.parkit.parkingsystem.config.DataBaseConfig.getConnection(DataBaseConfig.java:15) ~[classes/:?]
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:23) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:76) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'Paris, Madrid (heure d��t�)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2139) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2163) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1301) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:958) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	... 11 more
+2022-05-13 09:57:19 [main] ERROR ParkingService:85 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:80) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-05-13 10:36:17 [main] INFO  App:10 - Initializing Parking System
+2022-05-13 10:36:17 [main] INFO  InteractiveShell:14 - App initialized!!!
+2022-05-13 10:36:21 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:36:22 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:36:22 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:36:22 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:36:37 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:36:54 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:36:54 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:36:54 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:36:54 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:36:54 [main] ERROR ParkingService:127 - Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:114) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:41:50 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:42:43 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:42:43 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:42:43 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:42:43 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:42:46 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:02 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:02 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:43:02 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:02 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:05 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:14 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:22 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:43:31 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:45:37 [main] INFO  App:10 - Initializing Parking System
+2022-05-13 10:45:37 [main] INFO  InteractiveShell:14 - App initialized!!!
+2022-05-13 10:45:45 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:45:45 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:45:45 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:45:45 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:02 [main] INFO  App:10 - Initializing Parking System
+2022-05-13 10:47:02 [main] INFO  InteractiveShell:14 - App initialized!!!
+2022-05-13 10:47:08 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:08 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:47:08 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:47:08 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:08 [main] ERROR ParkingService:127 - Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:114) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:47:17 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:37 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:37 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:47:37 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:47:37 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:39 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:45 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:47:45 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:47:45 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:47:45 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:47:45 [main] ERROR ParkingService:85 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:80) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:32) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-05-13 10:47:46 [main] ERROR InputReaderUtil:18 - Error while reading user input from Shell
+java.lang.NumberFormatException: For input string: "z"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.parkit.parkingsystem.util.InputReaderUtil.readSelection(InputReaderUtil.java:15) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:25) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:25 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:30 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:35 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:35 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:35 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:35 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:38 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:44 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:13 - Create DB connection
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2022-05-13 10:48:51 [main] INFO  DataBaseConfig:23 - Closing DB connection
