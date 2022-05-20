@@ -12,12 +12,11 @@ public class FareCalculatorService {
             throw new IllegalArgumentException("Out time provided is incorrect:"+ticket.getOutTime().toString());
         }
 
-        long inHour = ticket.getInTime().getTime();
-        long outHour = ticket.getOutTime().getTime();
+        long inMillis = ticket.getInTime().getTime();
+        long outMillis = ticket.getOutTime().getTime();
 
-        //TODO: Some tests are failing here. Need to check if this logic is correct
-        double durationHour = convertMillisToHour(outHour - inHour);
-        durationHour = freeTime(durationHour, FREE_TIME_HOUR);
+        double durationHour = convertMillisToHour(outMillis - inMillis);
+        durationHour = checkFreeTime(durationHour);
 
         double ratePerHour;
         switch (ticket.getParkingSpot().getParkingType()){
@@ -41,8 +40,8 @@ public class FareCalculatorService {
     	return ((double) timeMillis/(1000*60*60));
     }
     
-    private double freeTime(double durationHour, double timeHour) {
-    	if (durationHour < timeHour) return 0;
+    private double checkFreeTime(double durationHour) {
+    	if (durationHour < FREE_TIME_HOUR) return 0;
     	else return durationHour;
     }
     
@@ -55,6 +54,7 @@ public class FareCalculatorService {
     }
     
     static public double roundCent(double x) {
+    	// les fractions de centimes sont offerts par la maison !!
     	return Math.floor(Math.round(x*10000)/100)/100;
     }
 }
