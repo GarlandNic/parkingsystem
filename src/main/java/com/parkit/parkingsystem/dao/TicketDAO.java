@@ -31,6 +31,7 @@ public class TicketDAO {
             ps.setDouble(3, ticket.getPrice());
             ps.setTimestamp(4, new Timestamp(ticket.getInTime().getTime()));
             ps.setTimestamp(5, (ticket.getOutTime() == null)?null: (new Timestamp(ticket.getOutTime().getTime())) );
+            logger.debug("Query: ",ps.toString());
             return ps.execute();
         }catch (Exception ex){
             logger.error("Error fetching next available slot",ex);
@@ -48,6 +49,7 @@ public class TicketDAO {
             PreparedStatement ps = con.prepareStatement(DBConstants.GET_TICKET);
             //ID, PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME)
             ps.setString(1,vehicleRegNumber);
+            logger.debug("Query: ",ps.toString());
             ResultSet rs = ps.executeQuery();
             if(rs.next()){
                 ticket = new Ticket();
@@ -77,6 +79,7 @@ public class TicketDAO {
             ps.setDouble(1, ticket.getPrice());
             ps.setTimestamp(2, new Timestamp(ticket.getOutTime().getTime()));
             ps.setInt(3,ticket.getId());
+            logger.debug("Query: ",ps.toString());
             ps.execute();
             return true;
         }catch (Exception ex){
@@ -94,6 +97,7 @@ public class TicketDAO {
             con = dataBaseConfig.getConnection();
             PreparedStatement ps = con.prepareStatement(DBConstants.GET_LAST_TIME_REGISTER);
             ps.setString(1, vehicleRegNumber);
+            logger.debug("Query: ",ps.toString());
             ResultSet rs = ps.executeQuery();
             if(rs.next()){
                 lastExit = rs.getTimestamp(2);
