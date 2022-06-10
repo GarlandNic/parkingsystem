@@ -58,7 +58,7 @@ public class ParkingService {
         }
     }
 
-    private boolean isRecurringUser(String vehicleRegNumber) {
+    public boolean isRecurringUser(String vehicleRegNumber) {
     	Date lastExit = ticketDAO.searchLastExit(vehicleRegNumber);
 		return (lastExit != null);
 	}
