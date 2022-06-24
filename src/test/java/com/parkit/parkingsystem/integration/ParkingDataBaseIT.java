@@ -1,6 +1,5 @@
 package com.parkit.parkingsystem.integration;
 
-import com.parkit.parkingsystem.constants.Fare;
 import com.parkit.parkingsystem.dao.ParkingSpotDAO;
 import com.parkit.parkingsystem.dao.TicketDAO;
 import com.parkit.parkingsystem.integration.config.DataBaseTestConfig;
@@ -8,7 +7,6 @@ import com.parkit.parkingsystem.integration.service.DataBasePrepareService;
 import com.parkit.parkingsystem.service.ParkingService;
 import com.parkit.parkingsystem.util.InputReaderUtil;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -78,6 +76,12 @@ public class ParkingDataBaseIT {
     
 	@Test
     public void testParkingLotExit(){
+		try {
+			Thread.sleep(1000); // testParkingACar() must have finished before we test here (same DB)
+		} catch (InterruptedException e) {
+			// Auto-generated catch block
+			e.printStackTrace();
+		}
     	int prevNbRowsTicketTable = nRowsTicketTable();
     	int prevNbFalseAvailable = nAvailableParkingTable(false);
     	int prevNbTrueAvailable = nAvailableParkingTable(true);
@@ -96,6 +100,12 @@ public class ParkingDataBaseIT {
         
 	@Test
     public void testBeingRecurringUser() {
+		try {
+			Thread.sleep(2000); // testParkingLotExit() must have finished before we test here (same DB)
+		} catch (InterruptedException e) {
+			// Auto-generated catch block
+			e.printStackTrace();
+		}
     	// car is parked, exited, parked again, exited again ; we check isRecurringUser() at each step
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
 		assertEquals(false, parkingService.isRecurringUser("ABCDEF"));
@@ -123,10 +133,10 @@ public class ParkingDataBaseIT {
             dataBaseTestConfig.closeResultSet(rs);
             dataBaseTestConfig.closePreparedStatement(ps);
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		}finally {
         	dataBaseTestConfig.closeConnection(con);
@@ -148,10 +158,10 @@ public class ParkingDataBaseIT {
             dataBaseTestConfig.closeResultSet(rs);
             dataBaseTestConfig.closePreparedStatement(ps);
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		}finally {
         	dataBaseTestConfig.closeConnection(con);
@@ -175,10 +185,10 @@ public class ParkingDataBaseIT {
             dataBaseTestConfig.closeResultSet(rs);
             dataBaseTestConfig.closePreparedStatement(ps);
 		} catch (ClassNotFoundException e1) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e1.printStackTrace();
 		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e1.printStackTrace();
 		}finally {
         	dataBaseTestConfig.closeConnection(con);
@@ -200,10 +210,10 @@ public class ParkingDataBaseIT {
             dataBaseTestConfig.closeResultSet(rs);
             dataBaseTestConfig.closePreparedStatement(ps);
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		}finally {
         	dataBaseTestConfig.closeConnection(con);
@@ -225,10 +235,10 @@ public class ParkingDataBaseIT {
             dataBaseTestConfig.closeResultSet(rs);
             dataBaseTestConfig.closePreparedStatement(ps);
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			// Auto-generated catch block
 			e.printStackTrace();
 		}finally {
         	dataBaseTestConfig.closeConnection(con);
