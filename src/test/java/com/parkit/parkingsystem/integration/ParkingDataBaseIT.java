@@ -76,12 +76,6 @@ public class ParkingDataBaseIT {
     
 	@Test
     public void testParkingLotExit(){
-		try {
-			Thread.sleep(1000); // testParkingACar() must have finished before we test here (same DB)
-		} catch (InterruptedException e) {
-			// Auto-generated catch block
-			e.printStackTrace();
-		}
     	int prevNbRowsTicketTable = nRowsTicketTable();
     	int prevNbFalseAvailable = nAvailableParkingTable(false);
     	int prevNbTrueAvailable = nAvailableParkingTable(true);
@@ -100,12 +94,6 @@ public class ParkingDataBaseIT {
         
 	@Test
     public void testBeingRecurringUser() {
-		try {
-			Thread.sleep(2000); // testParkingLotExit() must have finished before we test here (same DB)
-		} catch (InterruptedException e) {
-			// Auto-generated catch block
-			e.printStackTrace();
-		}
     	// car is parked, exited, parked again, exited again ; we check isRecurringUser() at each step
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
 		assertEquals(false, parkingService.isRecurringUser("ABCDEF"));

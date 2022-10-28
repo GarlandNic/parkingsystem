@@ -495,3 +495,1029 @@ java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ti
 2022-05-20 16:03:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
 2022-05-20 16:03:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
 2022-05-20 16:03:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:11 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:12 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:13 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] ERROR ParkingService:127 - Unable to process exiting vehicle
+java.lang.IllegalArgumentException: Out time provided is incorrect:Sat Jun 25 14:40:15 CEST 2022
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:12) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:116) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testBeingRecurringUser(ParkingDataBaseIT.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:532) ~[junit-platform-commons-1.3.2.jar:1.3.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:171) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:167) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:114) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:108) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:112) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:112) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:15 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:40:16 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:50 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:50 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:51 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:52 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] ERROR ParkingService:127 - Unable to process exiting vehicle
+java.lang.IllegalArgumentException: Out time provided is incorrect:Sat Jun 25 14:41:54 CEST 2022
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:12) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:116) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testBeingRecurringUser(ParkingDataBaseIT.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:532) ~[junit-platform-commons-1.3.2.jar:1.3.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:171) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:167) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:114) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:108) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:112) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:112) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:41:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:07 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:08 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:11 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:28 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:29 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:30 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:31 [main] ERROR ParkingService:127 - Unable to process exiting vehicle
+java.lang.IllegalArgumentException: Out time provided is incorrect:Sat Jun 25 14:42:30 CEST 2022
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:12) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:116) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testParkingLotExit(ParkingDataBaseIT.java:91) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:532) ~[junit-platform-commons-1.3.2.jar:1.3.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:171) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:167) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:114) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59) ~[junit-jupiter-engine-5.3.2.jar:5.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:108) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:112) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$4(NodeTestTask.java:112) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:98) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:74) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.2.jar:1.3.2]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:31 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:33 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:42:34 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:39 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:40 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:41 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:42 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:54 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:55 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2022-06-25 14:44:56 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
